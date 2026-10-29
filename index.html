@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-sketch</title>
+    <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Etch-a-Sketch</header>
+    <header>
+        <h2>Etch-a-Sketch</h1>
+        <button id="dark">Dark Mode</button>
+    </header>
     <main>
-        <div class="container"></div>
-        <div class="buttons">
-        <button id="black">Black</button>
-        <button id="random">Random</button>
-        <button id="reset">Reset</button></div>
-        
+        <div class="content">
+        <div class="container">
+
+        </div></div>
+        <div class="sidebar">
+            <div class="grid-size">
+                <h3>Grid Size</h3>
+                <div class="buttons">
+                    <button id="16" class="btn">16</button>
+                    <button id="32" class="btn">32</button>
+                    <button id="48" class="btn">48</button>
+                    <button id="64" class="btn">64</button>
+                </div>
+                
+            </div>
+            <div class="color">
+                <h3>Color</h3>
+                <div class="buttons">
+                <button id="black"></button>
+                <button id="red"></button></div>
+            </div>
+            <button id="clear">Clear</button>
+        </div>
     </main>
-    <footer>Made by Siam</footer>
     <script src="script.js"></script>
 </body>
 </html>
